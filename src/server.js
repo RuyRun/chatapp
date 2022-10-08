@@ -1,18 +1,3 @@
-// var app = require('express')();
-// var http = require('http').createServer(app);
-// var io = require('socket.io')(http);
-
-
-// app.get('/', (req, res) => res.send('Hello Server!'));
-
-// io.on('connection',(socket) => {
-//     console.log('Some User is Connected');
-// });
-
-// http.listen(3000,()=> {
-//     console.log('Listeing on *:3000')
-// });
-
 const express = require('express');
 const app = express();
 const http = require('http');
