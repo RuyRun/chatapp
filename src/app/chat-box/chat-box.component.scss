@@ -1,0 +1,26 @@
+.chat-messages-show-container{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    .chat-message-show-list{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .chat-messages-create-container{
+        background: #616161;
+        display: flex;
+        justify-content: center;
+    }
+}
+input {
+    padding: 12px;
+    margin: 25px 30px;
+    flex: 2;
+}
+button {
+    height: 35px;
+    margin: auto 40px;
+    width: 70px;
+}
